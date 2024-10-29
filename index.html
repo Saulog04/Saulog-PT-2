@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cellphone List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 align ="center"> CELLPHONE SHOP LIST</h1>
+  <div id="product-list" class="product-list"></div>
+
+<footer><p> Designed By: John Andrei Saulog</p></footer>
+
+  <script>
+    // Fetch JSON data and display it on the page
+    fetch('products.json')
+      .then(response => response.json())
+      .then(products => {
+        const productList = document.getElementById('product-list');
+        products.forEach(product => {
+          const productCard = document.createElement('div');
+          productCard.classList.add('product-card');
+
+          productCard.innerHTML = `
+            <img src="${product.productImage}" alt="${product.productName}">
+            <h3>${product.productName}</h3>
+            <p>${product.productDescription}</p>
+            <p><strong>Price:</strong> ${product.productPrice}</p>
+          `;
+          productList.appendChild(productCard);
+        });
+      })
+      .catch(error => console.error('Error fetching data:', error));
+  </script>
+</body>
+</html>

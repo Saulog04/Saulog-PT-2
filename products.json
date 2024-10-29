@@ -1,0 +1,62 @@
+[
+  {
+    "productName": "Infinix Gt 20 Pro",
+    "productDescription": "High-performance smartphone with a 120Hz AMOLED display.",
+    "productImage": "Infinix.jpg",
+    "productPrice": "₱ 15,999"
+  },
+  {
+    "productName": "Iphone 15 Pro Max",
+    "productDescription": "Advanced camera system and ultra-sleek design.",
+    "productImage": "iphone.jpg",
+    "productPrice":"₱ 91,990"
+  },
+  {
+    "productName": "Pixel Ultra",
+    "productDescription": "Pure Android experience with AI-enhanced camera features.",
+    "productImage": "Pixel.jpg",
+    "productPrice": "₱ 64,720"
+  },
+  {
+    "productName": "Tecno Spark Go",
+    "productDescription": "High-speed performance and fast charging capabilities.",
+    "productImage": "Tecno.jpg",
+    "productPrice": "₱ 3,799"
+  },
+  {
+    "productName": "Xiaomi Mi X",
+    "productDescription": "Affordable flagship with a stunning display and powerful battery.",
+    "productImage": "Xiaomi.jpg",
+    "productPrice": "₱ 36,991"
+  },
+  {
+    "productName": "Huawei Nova X",
+    "productDescription": "Outstanding battery life and advanced photo features.",
+    "productImage": "Huawei.jpg",
+    "productPrice": "₱ 9,999"
+  },
+  {
+    "productName": "Oppo Reno10 Pro",
+    "productDescription": "4K OLED display and exceptional sound quality.",
+    "productImage": "Oppo.jpg",
+    "productPrice": "₱ 29,999"
+  },
+  {
+    "productName": "Samsung Galaxy S24 Ultra",
+    "productDescription": "AI-powered camera and sleek, modern design.",
+    "productImage": "Samsung.jpg",
+    "productPrice": "₱76,990"
+  },
+  {
+    "productName": "Cherry Aqua S10 Pro",
+    "productDescription": "Durable design with advanced security features.",
+    "productImage": "Cherry.jpg",
+    "productPrice": "₱7,999"
+  },
+  {
+    "productName": "LG Velvet",
+    "productDescription": "Dual-screen support and stylish design.",
+    "productImage": "LG.jpg",
+    "productPrice": "₱ 10,999"
+  }
+]
